@@ -1,6 +1,6 @@
 <template>
   <modal ref="modal">
-    <img v-if="image" class="image" :src="image" />
+    <img v-once v-if="image" class="image" :src="image" />
   </modal>
 </template>
 

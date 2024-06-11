@@ -37,7 +37,7 @@
         <div class="columns is-multiline">
           <div class="column is-2">
             <a v-if="post.image" href="#"
-              ><img :src="post.image" @click="open(-1)"
+              ><img v-once :src="post.image" @click="open(-1)"
             /></a>
             <modal :image="post.image" ref="modalmain" />
           </div>

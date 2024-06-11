@@ -73,7 +73,7 @@
               class="text-primary"
               href="https://yandex.ru/maps/?rtext=~53.548569%2C49.341895"
               target="_blank"
-              >Россия, г. Тольятти</a
+              >Россия, Самарская обл., г. Тольятти</a
             >
           </p>
         </div>
