@@ -16,7 +16,7 @@
             </p>
           </div>
           <div class="column is-2-tablet has-text-right">
-            <p>© 2024 <a href="http://o915438k.beget.tech/" class="has-text-white">Pandapp</a></p>
+            <p>© 2024 <a href="http://o915438k.beget.tech/" target="_blank" class="has-text-white">Pandapp</a></p>
           </div>
         </div>
       </div>
