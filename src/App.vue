@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="app">
     <n-s-navbar :title="brandName" :items="menuItems" />
     <router-view />
     <n-s-footerbar />

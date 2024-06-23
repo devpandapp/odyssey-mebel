@@ -9,6 +9,9 @@ body {
   font-family: Manrope !important;
   background-color: #f1f1f1;
   color: #717d73;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 // Headings
@@ -56,6 +59,13 @@ h6 {
 
 a {
   transition: color 0.2s ease;
+}
+
+.app {
+  flex: 1; 
+  display: flex; 
+  flex-direction: column; 
+  min-height:100vh;
 }
 
 .clickable {
@@ -329,6 +339,7 @@ a {
 .footer {
   padding: 2 * $spacing 1.5 * $spacing 2 * $spacing;
   background-color: $primary !important;
+  margin-top: auto;
 
   a {
     background-color: $primary;
