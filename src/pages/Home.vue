@@ -1,6 +1,6 @@
 <template>
   <div>
-    <n-s-searchbar :onSearch="filterPosts" />
+    <!-- <n-s-searchbar :onSearch="filterPosts" /> -->
     <n-s-posts :posts="posts" />
     <n-s-pagination
       :onNextPage="getMorePosts"
@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import NSSearchbar from "../components/SearchBar.vue";
+// import NSSearchbar from "../components/SearchBar.vue";
 import NSPosts from "../components/Posts.vue";
 import NSPagination from "../components/Pagination.vue";
 
@@ -19,7 +19,7 @@ export default {
   components: {
     NSPosts,
     NSPagination,
-    NSSearchbar,
+    // NSSearchbar,
   },
   data() {
     return {
