@@ -97,8 +97,4 @@ export default {
   align-items: center;
   justify-content: center;
 }
-
-.post-image {
-  height: 213px;
-}
 </style>
